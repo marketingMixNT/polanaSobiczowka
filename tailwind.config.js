@@ -20,6 +20,7 @@ export default {
                 },
                 accent: {
 
+                    100: "#efebe7",
                     200: "#D6C0B3",
                     400: "#AB886D",
                     800: "#493628",
@@ -27,7 +28,7 @@ export default {
 
                 bgPrimary: "#ffffff",
                 bgSecondary: {
-                    200: "#F2F2F2",
+                    200: "#efebe7",
                     400: "#eeebe6",
                     600: " #cbcbcb",
                     800: " #555",

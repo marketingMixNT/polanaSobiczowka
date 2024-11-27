@@ -42,7 +42,7 @@
 
     <x-link-btn class="absolute bottom-12 sm:bottom-24 2xl:bottom-44 left-0 right-0 flex justify-center items-center w-[200px] 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 " href="">Zarezerwuj</x-link-btn>
       
-    <a href="" class="border border-accent-400 px-8 py-2 text-sm rounded-3xl bg-primary-400 text-fontDark hover:bg-accent-400 hover:text-fontLight duration-500 absolute bottom-12 sm:bottom-24 2xl:bottom-44 left-0 right-0 flex justify-center items-center w-[200px] 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 ">Zarezerwuj</a>
+    <a href="" class="border border-accent-400 px-8 py-3 text-sm rounded-3xl bg-primary-400 text-fontDark hover:bg-accent-400 hover:text-fontLight duration-500 absolute bottom-12 sm:bottom-24 2xl:bottom-44 left-0 right-0 flex justify-center items-center w-[200px] 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 ">Zarezerwuj</a>
     
 
         {{-- ANCHOR --}}

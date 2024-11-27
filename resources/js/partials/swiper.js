@@ -20,3 +20,23 @@ new Swiper(".hero-carousel", {
     },
     modules: [Autoplay, EffectFade],
 });
+
+//TESTIMONIALS CAROUSEL
+new Swiper(".about-image-carousel", {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 1,
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: true,
+    },
+
+    navigation: {
+        nextEl: ".about-image-next",
+        prevEl: ".about-image-prev",
+    },
+
+    modules: [Autoplay,Navigation],
+});
