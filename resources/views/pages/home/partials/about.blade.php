@@ -1,5 +1,5 @@
-<section id="o-nas" class="py-16 md:pt-16 md:pb-24 ">
-    <x-container class="max-w-screen-2xl space-y-24 ">
+<section id="o-nas" class="py-16 md:pt-12 md:pb-12 ">
+    <x-container class="max-w-[1700px] space-y-24 ">
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-6">
 
@@ -16,7 +16,7 @@
 
                     </div>
                 </div>
-                <div class="flex justify-between mt-3 px-2">
+                <div class="flex justify-center gap-6 mt-3 px-2">
 
                     <button class="about-image-prev"><x-lucide-arrow-left-circle  class="size-6 text-accent-400"/>
 

@@ -21,7 +21,7 @@ new Swiper(".hero-carousel", {
     modules: [Autoplay, EffectFade],
 });
 
-//TESTIMONIALS CAROUSEL
+//ABOUT IMAGE CAROUSEL
 new Swiper(".about-image-carousel", {
     loop: true,
     grabCursor: true,
@@ -36,6 +36,62 @@ new Swiper(".about-image-carousel", {
     navigation: {
         nextEl: ".about-image-next",
         prevEl: ".about-image-prev",
+    },
+
+    modules: [Autoplay,Navigation],
+});
+
+// FEATURES CAROUSEL
+new Swiper(".features-carousel", {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 1,
+
+    breakpoints: {
+        600: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+        1280: {
+            slidesPerView: 4,
+        },
+        1600: {
+            slidesPerView: 5,
+        },
+    },
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: true,
+    },
+
+    navigation: {
+        nextEl: ".feature-next",
+        prevEl: ".feature-prev",
+    },
+
+    modules: [Autoplay,Navigation],
+});
+
+
+//IMAGE CAROUSEL
+new Swiper(".image-carousel", {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 1,
+
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: true,
+    },
+
+    navigation: {
+        nextEl: ".image-carousel-next",
+        prevEl: ".image-carousel-prev",
     },
 
     modules: [Autoplay,Navigation],

@@ -1,7 +1,9 @@
-<section id="o-nas" class="py-16 md:pt-16 md:pb-24 ">
-    <x-container class="max-w-screen-xl space-y-24 ">
+<section id="o-nas" class="py-16 md:pt-16 md:pb-12 ">
+    <x-container class="max-w-screen-xl space-y-6 ">
 
         <h2 class="text-5xl leading-relaxed tracking-widest text-center font-extralight">Zobacz nasze pokoje</h2>
+
+        <div class="border-b border-accent-400 w-[80%] h-[1px] leading-relaxed tracking-widest mx-auto"></div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2  gap-12">
 
@@ -28,6 +30,8 @@
             
 
         </div>
+
+        <div class="border-b border-accent-400 w-[80%] h-[1px] leading-relaxed tracking-widest mx-auto"></div>
 
     </x-container>
 </section>
