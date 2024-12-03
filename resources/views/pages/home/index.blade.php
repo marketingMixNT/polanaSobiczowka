@@ -1,4 +1,4 @@
-<x-layouts.app title="title" description="meta">
+<x-layouts.app title="home" description="meta">
 
    <x-layouts.app-wrapper>
 

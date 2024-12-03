@@ -4,7 +4,7 @@
 
         <h1 class="absolute top-1/2 left-0 right-0 -translate-y-1/2 px-6 md:px-12 text-center text-4xl xs:text-5xl lg:text-7xl     font-heading  text-fontWhite  tracking-wide z-50 text-fontLight font-extralight"
             style="line-height: 1.2">
-            Polana Sobiczkowa <br> <span class=" text-sm lg:text-2xl font-text ">
+            Polana Sobiczkowa <br> <span class=" text-sm lg:text-2xl font-thin font-text ">
                 Góralska gościnność z nowoczesnym akcentem</span>
         </h1>
 
@@ -46,7 +46,7 @@
     
 
         {{-- ANCHOR --}}
-        <a href="#{{__('global.anchor')}}" class="absolute bottom-3  left-1/2 transform -translate-x-1/2 z-50"
+        <a href="#o-nas" class="absolute bottom-3  left-1/2 transform -translate-x-1/2 z-50"
             aria-label="Przejdź do sekcji o nas ">
 
             <x-lucide-chevron-down class="animate-pulse w-6  text-white" />

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth scroll-p-10 ">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth scroll-p-16 ">
 
 <head>
     @include('partials.meta')
@@ -16,7 +16,7 @@
 
 
 
-<body class="font-text bg-bgPrimary text-fontDark overflow-x-hidden">
+<body class="font-text bg-primary-100 text-fontDark overflow-x-hidden">
     @include('partials.gtm')
 
    

@@ -1,4 +1,4 @@
-<section id="o-nas" class="py-16 md:pt-12 md:pb-12 ">
+<x-section>
     <x-container class="max-w-[1700px] space-y-24 ">
 
         <x-text-image-block-container>
@@ -35,4 +35,4 @@
 
 
     </x-container>
-</section>
+</x-section>

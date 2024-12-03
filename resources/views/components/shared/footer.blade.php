@@ -3,7 +3,7 @@
 
 @props(['home'])
 
-<footer class="bg-primary-500 py-12 text-fontDark pb-24 lg:pb-12">
+<footer class="bg-primary-300 py-12 text-fontDark pb-24 lg:pb-12 border-t border-primary-600">
    
     <div class="max-w-screen-xl mx-auto space-y-10">
       
@@ -25,7 +25,7 @@
                     </h2>
                     <div class=" flex flex-col gap-2">
 
-                        <a href="tel:+48" class="font-thin font-heading link-hover text-sm text-accent-400">+48 123 456 789 </a>
+                        <a href="tel:+48" class="font-thin font-heading link-hover text-sm text-secondary-400">+48 123 456 789 </a>
 
                        
                     </div>
@@ -35,7 +35,7 @@
                       Email
                     </h2>
                     <a href="mailto:"
-                        class="font-thin font-heading link-hover text-sm">test@gmail.com</a>
+                        class="font-thin font-heading link-hover text-sm text-secondary-400">test@gmail.com</a>
                        
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 class="mx-4 md:mx-12 flex flex-col justify-center items-center text-center sm:justify-start sm:items-start sm:text-start">
                 <h2 class="font-heading text-lg uppercase mb-2 font-light">   Adres</h2>
                 <a href="" target="_blank"
-                    class="font-thin font-heading link-hover text-sm">Testowa 123, 12-345 Test <br /></a>
+                    class="font-thin font-heading link-hover text-sm text-secondary-400">Testowa 123, 12-345 Test <br /></a>
             </div>
             <!--FOUR-->
             <div class="mx-4  md:mx-12">
@@ -63,7 +63,7 @@
        
         <div class="max-w-screen-lg mx-4 sm:mx-24 xl:mx-auto">
 
-            <hr class="opacity-40" />
+            <hr class="opacity-40 border-secondary-400" />
             <ul class="flex flex-wrap justify-center items-center gap-8 text-xs py-4">
                 <li>
                     <a href="" class="link-hover font-light">Polityka Prywatności</a>
@@ -74,7 +74,7 @@
               
            
             </ul>
-            <hr class="opacity-40" />
+            <hr class="opacity-40 border-secondary-400" />
         </div>
 
       
@@ -86,7 +86,7 @@
 
             <div>
                 <a href="https://marketingmix.pl" target="_blank" class="flex justify-center items-center" aria-label="Agencja MarketingMix"><img
-                        src="{{ asset('/assets/marketingmix-logo--light.svg') }}" class="w-32 hover:scale-105 duration-300"
+                        src="{{ asset('/assets/marketingmix-logo.svg') }}" class="w-32 hover:scale-105 duration-300"
                         alt="logo wykonawcy - agencja MarketingMix" width="128" height="20"/></a>
             </div>
         </div>
