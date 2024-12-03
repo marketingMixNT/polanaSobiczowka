@@ -20,35 +20,35 @@
             <div
                 class=" mx-4 md:mx-12 flex flex-col gap-6 justify-center items-center text-center sm:justify-start sm:items-start sm:text-start">
                 <div>
-                    <h2 class="font-heading text-lg uppercase mb-2 font-light">
+                    <h2 class="font-heading text-lg uppercase mb-2 font-light text-secondary-400">
                       Telefon
                     </h2>
                     <div class=" flex flex-col gap-2">
 
-                        <a href="tel:+48" class="font-thin font-heading link-hover text-sm text-secondary-400">+48 123 456 789 </a>
+                        <a href="tel:+48" class="font-thin font-heading link-hover text-sm ">+48 123 456 789 </a>
 
                        
                     </div>
                 </div>
                 <div>
-                    <h2 class="font-heading text-lg uppercase mb-2 font-light">
+                    <h2 class="font-heading text-lg uppercase mb-2 font-light text-secondary-400">
                       Email
                     </h2>
                     <a href="mailto:"
-                        class="font-thin font-heading link-hover text-sm text-secondary-400">test@gmail.com</a>
+                        class="font-thin font-heading link-hover text-sm ">test@gmail.com</a>
                        
                 </div>
             </div>
             <!--THREE-->
             <div
                 class="mx-4 md:mx-12 flex flex-col justify-center items-center text-center sm:justify-start sm:items-start sm:text-start">
-                <h2 class="font-heading text-lg uppercase mb-2 font-light">   Adres</h2>
+                <h2 class="font-heading text-lg uppercase mb-2 font-light text-secondary-400">   Adres</h2>
                 <a href="" target="_blank"
-                    class="font-thin font-heading link-hover text-sm text-secondary-400">Testowa 123, 12-345 Test <br /></a>
+                    class="font-thin font-heading link-hover text-sm ">Testowa 123, 12-345 Test <br /></a>
             </div>
             <!--FOUR-->
             <div class="mx-4  md:mx-12">
-                <h2 class="font-heading text-lg uppercase mb-2 font-light ">
+                <h2 class="font-heading text-lg uppercase mb-2 font-light text-secondary-400">
                     Social Media
                 </h2>
                 {{-- <div class="flex justify-center sm:justify-start items-center gap-3">

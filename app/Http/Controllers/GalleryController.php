@@ -11,6 +11,6 @@ class GalleryController extends Controller
      */
     public function __invoke(Request $request)
     {
-        //
+        return view('pages.gallery.index'); 
     }
 }
