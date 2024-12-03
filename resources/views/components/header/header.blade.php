@@ -1,5 +1,5 @@
 <header id="header"
-    class="fixed left-0 right-0 top-0 flex justify-between items-center  min-h-[80px] px-5 xl:px-10  bg-primary-600 duration-700 z-50">
+    class="fixed left-0 right-0 top-0 flex justify-between items-center  min-h-[80px] px-5 xl:px-10  bg-primary-100 duration-700 z-50 border-b border-primary-600">
 
     {{-- logo --}}
     <a href="{{route('home')}}" aria-label="strona główna"

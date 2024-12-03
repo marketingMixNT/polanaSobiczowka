@@ -1,7 +1,7 @@
 @props(['class' => ''])
 
 <ul id="languageSwitcher"
-    class="justify-center items-center gap-5 list-none text-sm flex border border-fontDark px-[7px] py-[5px] {{$class}}">
+    class="justify-center items-center gap-5 list-none text-sm flex border border-primary-500 px-[7px] py-[5px] {{$class}}">
     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
     <li>
         <a rel="alternate" hreflang="{{ $localeCode }}"

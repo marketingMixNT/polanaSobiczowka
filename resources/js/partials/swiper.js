@@ -96,3 +96,20 @@ new Swiper(".image-carousel", {
 
     modules: [Autoplay,Navigation],
 });
+
+
+
+//TESTIMONIALS CAROUSEL
+new Swiper(".testimonials-carousel", {
+    loop: true,
+    grabCursor: true,
+    slidesPerView: 1,
+
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+        pauseOnMouseEnter: true,
+    },
+
+    modules: [Autoplay,],
+});

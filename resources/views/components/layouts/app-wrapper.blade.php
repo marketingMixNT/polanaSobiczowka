@@ -1,21 +1,20 @@
-{{-- <x-preloader :home="$home" />
-<x-header.header :home="$home" :rooms="$rooms" />
-<x-header.header-secondary :home="$home" :rooms="$rooms" />
-<x-header.mobile-menu :home="$home" :rooms="$rooms" /> --}}
 
+
+<x-shared.preloader/>
 <x-header.header/>
 <x-header.header-secondary/>
 
 {{ $slot }}
 
-{{-- <x-map :home="$home" />
-<x-footer :home="$home" />
-<x-mobile-buttons :home="$home" />
-
-<x-scroll-to-top />
-
+<x-map/>
+<x-shared.footer/>
+<x-shared.scroll-to-top />
+<x-shared.mobile-buttons.mobile-buttons/>
 
 
 
-<script src="{{$home->booking_script}}{{ str_replace('_', '-', app()->getLocale()) }}" async></script>  --}}
+
+
+
+{{-- <script src="{{$home->booking_script}}{{ str_replace('_', '-', app()->getLocale()) }}" async></script>   --}}
 

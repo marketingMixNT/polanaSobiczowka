@@ -9,31 +9,23 @@ export default {
             },
             colors: {
                 primary: {
-                    400: "#ffffff",
-                    600: "#E4E0E1",
+                    100: "#ffffff",
+                    200: "#E4E0E1",
+                    // 300:"#2f2f2f",
+                    400:"#efebe7",
+                    500:'#a5a5a5',
+                    600:"#939393",
+                    800:"#555555",
                 },
                 secondary: {
 
-                    200: "#939393",
-                    400: "#555555",
+                   
+                    400: "#b69465",
+                    600: "#c2a681",
                     
                 },
-                accent: {
-
-                    100: "#efebe7",
-                    200: "#D6C0B3",
-                    400: "#AB886D",
-                    800: "#493628",
-                },
-
-                bgPrimary: "#ffffff",
-                bgSecondary: {
-                    200: "#efebe7",
-                    400: "#eeebe6",
-                    600: " #cbcbcb",
-                    800: " #555",
-                },
-                bgThird: "#eeebe6",
+               
+              
 
                 fontLight: "#ffffff",
                 fontDark: "#555555",
