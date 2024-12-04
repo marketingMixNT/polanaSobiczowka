@@ -15,6 +15,10 @@
 }
 
 
+.gallery-btn {
+  @apply bg-secondary-400 text-fontLight;
+}
+
 @layer utilities {
     .clip-path-circle-0 {
       clip-path: circle(0% at 100% 100%);
