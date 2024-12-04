@@ -20,7 +20,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/', HomeController::class)->name('home');
     Route::get('/o-nas', AboutController::class)->name('about');
     Route::get('/pokoje', [RoomController::class,'index'])->name('room.index');
-    Route::get('/pokoje/{slug}', [RoomController::class,'index'])->name('room.show');
+    // Route::get('/pokoje/{slug}', [RoomController::class,'index'])->name('room.show');
+    Route::get('/pokoj', [RoomController::class,'show'])->name('room.show');
     Route::get('/lokalizacja', LocationController::class)->name('location');
     Route::get('/galeria', GalleryController::class)->name('gallery');
     Route::get('/kontakt', ContactController::class)->name('contact');
