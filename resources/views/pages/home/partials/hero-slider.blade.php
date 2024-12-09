@@ -11,48 +11,53 @@
         {{-- SLIDES --}}
 
 
-
-        {{-- @foreach ($home->slider_images as $slide) --}}
-
-
-        
         <div class="swiper-slide relative w-full h-full ">
-
-
-            <img src="{{asset('assets/hero.jpg' )}}" alt=""
-                class="absolute inset-0 w-full h-full object-cover " />
-
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-42.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-42.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
             <div class="absolute inset-0 bg-black opacity-40"></div>
         </div>
+
         <div class="swiper-slide relative w-full h-full ">
-
-
-            <img src="{{asset('assets/hero-2.jpg' )}}" alt=""
-                class="absolute inset-0 w-full h-full object-cover " />
-
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-40.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-40.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
             <div class="absolute inset-0 bg-black opacity-40"></div>
         </div>
-        
-        {{-- @endforeach --}}
 
+        <div class="swiper-slide relative w-full h-full ">
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-4.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-4.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
 
-        {{-- RESERVATION PANEL --}}
+        <div class="swiper-slide relative w-full h-full ">
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-9.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-9.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
 
-        
+        <div class="swiper-slide relative w-full h-full ">
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-18.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-18.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
 
-    <x-link-btn class="absolute bottom-12 sm:bottom-24 2xl:bottom-44 left-0 right-0 flex justify-center items-center w-[200px] 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 " href="">Zarezerwuj</x-link-btn>
-      
-    <a href="" class="border border-accent-400 px-8 py-3 text-sm rounded-3xl bg-primary-400 text-fontDark hover:bg-accent-400 hover:text-fontLight duration-500 absolute bottom-12 sm:bottom-24 2xl:bottom-44 left-0 right-0 flex justify-center items-center w-[200px] 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 ">Zarezerwuj</a>
-    
+        <div class="swiper-slide relative w-full h-full ">
+            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-17.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden absolute inset-0 w-full h-full object-cover " />
+            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-17.webp' )}}" alt="Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block absolute inset-0 w-full h-full object-cover " />
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
+
+        {{-- RESERVATION BUTTON --}}
+
+        <x-link-btn
+            class="absolute bottom-24 2xl:bottom-44  flex justify-center items-center w-[200px] left-1/2 transform -translate-x-1/2 "
+            href="{{route('contact')}}">Zarezerwuj</x-link-btn>
 
         {{-- ANCHOR --}}
-        <a href="#o-nas" class="absolute bottom-3  left-1/2 transform -translate-x-1/2 z-50"
-            aria-label="Przejdź do sekcji o nas ">
+        <a href="#pokoje" class="absolute bottom-3  left-1/2 transform -translate-x-1/2 z-50"
+            aria-label="Przejdź do sekcji pokoje">
 
             <x-lucide-chevron-down class="animate-pulse w-6  text-white" />
-
-
-
 
         </a>
     </div>
