@@ -1,19 +1,23 @@
-<x-layouts.app title="Kontakt – Apartamenty Polana Sobiczkowa" description="Skontaktuj się z nami, aby zarezerwować pobyt w Apartamentach Polana Sobiczkowa. Jesteśmy dostępni, aby odpowiedzieć na wszystkie pytania i pomóc w planowaniu Twojego wypoczynku.">
+<x-layouts.app title="Kontakt – Apartament Polana Sobiczkowa" description="Skontaktuj się z nami, aby zarezerwować pobyt w Apartamencie Polana Sobiczkowa. Jesteśmy dostępni, aby odpowiedzieć na wszystkie pytania i pomóc w planowaniu Twojego wypoczynku.">
 
     <x-layouts.app-wrapper>
 
         {{-- hero --}}
         <x-hero 
-        image="{{asset('assets/images/desktop/polana-sobiczkowa-12.webp')}}"
-        imageMobile="{{asset('assets/images/mobile/polana-sobiczkowa-12.webp')}}"
+        image="{{asset('assets/img/desktop/polana-sobiczkowa-10.webp')}}"
+        imageMobile="{{asset('assets/img/mobile/polana-sobiczkowa-10.webp')}}"
     
 
          title="Kontakt" subtitle="Skontaktuj się z nami" />
 
         {{-- contact cards --}}
-        <div class="border-t border-b w-full   py-8 border-primary-400 grid grid-cols-1 md:grid-cols-3 gap-y-12 max-w-screen-xl mx-auto my-12">
+        <div class="border-t border-b w-full   py-8 border-primary-400 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-12 max-w-screen-xl mx-auto my-12">
 
             <x-contact-card heading="Telefon" href="tel:+48604280425" text="+48 604 280 425">
+                <x-lucide-phone class="w-12 text-primary-600 mb-3 group-hover:scale-105 duration-500" />
+            </x-contact-card>
+
+            <x-contact-card heading="Telefon" href="tel:+48604101207" text="+48 604 101 207">
                 <x-lucide-phone class="w-12 text-primary-600 mb-3 group-hover:scale-105 duration-500" />
             </x-contact-card>
 

@@ -1,17 +1,16 @@
-<x-layouts.app title="O nas - Polana Sobiczkowa | Komfortowe Apartamenty w Górach"
-    description="Polana Sobiczkowa to komfortowe apartamenty w góralskim stylu, idealne na wypoczynek. Zaledwie 3 km od Zakopanego, z bliskością atrakcji Podhala.">
+<x-layouts.app title="O nas - Polana Sobiczkowa | Komfortowy Apartament w Górach"
+    description="Polana Sobiczkowa to komfortowy apartament w góralskim stylu, idealne na wypoczynek. Zaledwie 3 km od Zakopanego, z bliskością atrakcji Podhala.">
 
     <x-layouts.app-wrapper>
 
         {{-- hero --}}
-        <x-hero image="{{asset('assets/images/desktop/polana-sobiczkowa-32.webp')}}"
-            imageMobile="{{asset('assets/images/mobile/polana-sobiczkowa-32.webp')}}" title="O nas"
-            subtitle="Poznaj nas" />
+        <x-hero image="{{asset('assets/img/desktop/polana-sobiczkowa-12.webp')}}"
+            imageMobile="{{asset('assets/img/mobile/polana-sobiczkowa-3.webp')}}" title="O nas" subtitle="Poznaj nas" />
 
         {{-- text --}}
         <x-text-section>
-            <strong>Polana Sobiczkowa</strong> to miejsce, które łączy tradycję z nowoczesnością. Nasze komfortowe
-            apartamenty w góralskim stylu zapewniają wygodę i przestronność, idealne dla rodzin oraz grup przyjaciół.
+            <strong>Polana Sobiczkowa</strong> to miejsce, które łączy tradycję z nowoczesnością. Nasz komfortowy
+            apartament w góralskim stylu zapewniają wygodę i przestronność, idealne dla rodzin oraz grup przyjaciół.
             <br><br>Zaledwie 3 km od Zakopanego, oferujemy ciszę i spokój, jednocześnie będąc w pobliżu atrakcji
             Podhala. To doskonała baza wypadowa na górskie wędrówki, narciarstwo i odpoczynek w otoczeniu natury.
         </x-text-section>
@@ -34,18 +33,20 @@
                         </x-heading-block>
 
                         <x-text-block large>
+
                             Polana Sobiczkowa to miejsce, które powstało z pasji do gór oraz gościnności. Chcieliśmy
                             stworzyć przestrzeń, która łączy w sobie tradycyjny góralski klimat z nowoczesnymi
-                            udogodnieniami. Nasze apartamenty zapewniają wygodę, przestronność oraz unikalny klimat,
-                            który sprzyja zarówno relaksowi, jak i aktywnemu wypoczynkowi. Każdy detal został
-                            zaprojektowany z myślą o naszych gościach, by poczuli się jak w domu, odpoczywając w
-                            otoczeniu pięknej przyrody.
+                            udogodnieniami. Nasz apartament zapewnia wygodę, przestronność oraz unikalny klimat, który
+                            sprzyja zarówno relaksowi, jak i aktywnemu wypoczynkowi. Każdy detal został zaprojektowany z
+                            myślą o naszych gościach, by poczuli się jak w domu, odpoczywając w otoczeniu pięknej
+                            przyrody.
                             <br><br>
-                            Nasze apartamenty to nie tylko komfortowe wnętrza, ale także idealna lokalizacja, zaledwie 3
+                            Nasz apartament to nie tylko komfortowe wnętrze, ale także idealna lokalizacja, zaledwie 3
                             km od Zakopanego. Jesteśmy doskonałą bazą wypadową do górskich wędrówek, narciarstwa czy
                             innych atrakcji Podhala. Wierzymy, że w Polana Sobiczkowa każdy znajdzie coś dla siebie,
                             niezależnie od tego, czy szuka spokoju w otoczeniu natury, czy aktywnego wypoczynku w
                             górach.
+
 
                         </x-text-block>
 
@@ -54,13 +55,13 @@
                     {{-- image --}}
                     <div class="min-h-[400px]">
                         <div class=" h-full w-full">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-40.webp')}}"
-                            alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                            class="sm:hidden w-full h-full object-cover">
-                            
-                        <img src="{{asset('assets/images/desktop/polana-sobiczkowa-40.webp')}}"
-                            alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                            class="hidden sm:block w-full h-full object-cover">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-1.webp')}}"
+                                alt="Apartamenty Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-1.webp')}}"
+                                alt="Apartamenty Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block w-full h-full object-cover">
                         </div>
 
                     </div>
@@ -78,11 +79,11 @@
                     {{-- image --}}
                     <div class="min-h-[400px]">
                         <div class=" h-full w-full">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-43.webp')}}"
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-23.webp')}}"
                                 alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
                                 class="sm:hidden w-full h-full object-cover">
-                                
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-43.webp')}}"
+
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-23.webp')}}"
                                 alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
                                 class="hidden sm:block w-full h-full object-cover">
                         </div>
@@ -101,9 +102,9 @@
 
                         <x-text-block large>
                             Polana Sobiczkowa to miejsce, które zostało stworzone z myślą o tych, którzy szukają
-                            spokoju, komfortu i niezapomnianych widoków. Nasze apartamenty, urządzone w tradycyjnym
-                            góralskim stylu, zapewniają pełną wygodę i przestronność, którą docenią zarówno rodziny, jak
-                            i grupy przyjaciół. Każdy szczegół naszej oferty jest zaprojektowany z myślą o Twoim
+                            spokoju, komfortu i niezapomnianych widoków. Nasz apartament, urządzony w tradycyjnym
+                            góralskim stylu, zapewnia pełną wygodę i przestronność, którą docenią zarówno rodziny, jak i
+                            grupy przyjaciół. Każdy szczegół naszej oferty jest zaprojektowany z myślą o Twoim
                             komforcie, a naszym celem jest stworzenie atmosfery, w której poczujesz się jak u siebie w
                             domu.
                             <br><br>

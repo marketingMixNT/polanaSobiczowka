@@ -29,8 +29,8 @@
             {{-- image --}}
             <div class="min-h-[400px]">
                 <div class=" h-full w-full">
-                    <img src="{{asset('assets/images/mobile/polana-sobiczkowa-12.webp')}}" alt="widok z lotu ptaka nad Apartamenty Polana Sobiczkowa w Kościelisku" class="sm:hidden w-full h-full object-cover">
-                    <img src="{{asset('assets/images/desktop/polana-sobiczkowa-12.webp')}}" alt="widok z lotu ptaka nad Apartamenty Polana Sobiczkowa w Kościelisku" class="hidden sm:block w-full h-full object-cover">
+                    <img src="{{asset('assets/img/mobile/polana-sobiczkowa-8.webp')}}" alt="Apartament Polana Sobiczkowa w Kościelisku" class="sm:hidden w-full h-full object-cover">
+                    <img src="{{asset('assets/img/desktop/polana-sobiczkowa-8.webp')}}" alt="Apartament Polana Sobiczkowa w Kościelisku" class="hidden sm:block w-full h-full object-cover">
                 </div>
 
             </div>

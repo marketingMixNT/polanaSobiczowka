@@ -10,10 +10,10 @@ class RoomController extends Controller
         return view('pages.room.index');
     }
 
-    public function roomFirst(){
+    public function apartment(){
         return view('pages.room.first');
     }
-    public function roomSecond(){
-        return view('pages.room.second');
-    }
+    // public function roomSecond(){
+    //     return view('pages.room.second');
+    // }
 }

@@ -1,12 +1,12 @@
-<x-layouts.app title="Apartament z 1 sypialnią – Polana Sobiczkowa"
-    description="Apartament z widokiem na góry to komfortowe miejsce z przestronnym wnętrzem, idealne dla osób szukających relaksu w otoczeniu tatrzańskiej przyrody. Zarezerwuj teraz!">
+<x-layouts.app title="Apartament – Polana Sobiczkowa"
+    description="Nasz apartament to komfortowe miejsce z przestronnym wnętrzem, idealne dla osób szukających relaksu w otoczeniu tatrzańskiej przyrody. Zarezerwuj teraz!">
 
     <x-layouts.app-wrapper>
 
         {{-- hero --}}
-        <x-hero-room image="{{asset('assets/images/desktop/polana-sobiczkowa-45.webp')}}"
-            imageMobile="{{asset('assets/images/mobile/polana-sobiczkowa-45.webp')}}"
-            title="Apartament z 1 sypialnią" />
+        <x-hero-room image="{{asset('assets/img/desktop/polana-sobiczkowa-20.webp')}}"
+            imageMobile="{{asset('assets/img/mobile/polana-sobiczkowa-20.webp')}}"
+            title="Apartament" />
 
         <x-section>
             <x-container class="max-w-[1650px] space-y-24 relative 2xl:px-12">
@@ -19,10 +19,10 @@
                         <div class=" prose max-w-full text-lg">
 
                             <x-text-block>
-                                Apartament z 1 sypialnią to komfortowe miejsce, idealne dla par lub małych rodzin
+                                Nasz apartament to komfortowe miejsce, idealne dla par lub małych rodzin
                                 szukających odpoczynku w górach. Jego przestronny układ zapewnia prywatność i wygodę, z
                                 osobnym pokojem sypialnym oraz salonem. Apartament jest wyposażony w nowoczesne
-                                udogodnienia, takie jak klimatyzacja, prywatny aneks kuchenny i balkon z widokiem
+                                udogodnienia, takie jak  prywatny aneks kuchenny czy balkon z widokiem
                                 na góry oraz ogród, co pozwala w pełni cieszyć się otaczającą naturą.
 
                             </x-text-block>
@@ -38,16 +38,16 @@
                         <div class="flex flex-col md:flex-row md:max-h-[410px]  gap-2">
 
                             <div class="md:w-3/5 h-full ">
-                                <img src="{{asset('assets/images/mobile/polana-sobiczkowa-18.webp')}}" alt="" class="w-full h-full object-cover">
+                                <img src="{{asset('assets/img/mobile/polana-sobiczkowa-18.webp')}}" alt="" class="w-full h-full object-cover">
                             </div>
 
                             <div class="md:w-2/5 flex flex-col gap-y-2   h-full ">
-                                <img src="{{asset('assets/images/mobile/polana-sobiczkowa-2.webp')}}" alt="" class="w-full h-1/2  object-cover">
+                                <img src="{{asset('assets/img/mobile/polana-sobiczkowa-23.webp')}}" alt="" class="w-full h-1/2  object-cover">
 
                                 <div class="grid grid-cols-2 h-1/2 gap-x-2">
 
-                                    <img src="{{asset('assets/images/mobile/polana-sobiczkowa-14.webp')}}" alt="" class="w-full h-full  object-cover">
-                                    <img src="{{asset('assets/images/mobile/polana-sobiczkowa-3.webp')}}" alt="" class="w-full h-full  object-cover">
+                                    <img src="{{asset('assets/img/mobile/polana-sobiczkowa-14.webp')}}" alt="" class="w-full h-full  object-cover">
+                                    <img src="{{asset('assets/img/mobile/polana-sobiczkowa-25.webp')}}" alt="" class="w-full h-full  object-cover">
                                 </div>
 
 
@@ -77,7 +77,7 @@
                                 </div>
 
                                 <div class="grid grid-cols-1 md:grid-cols-3 w-full gap-6 border-b py-6">
-                                    <x-room-pictogram text="Wanna lub prysznic">
+                                    <x-room-pictogram text="Prysznic">
                                         <img src="{{asset('assets/icons/pictograms/shower.svg')}}" alt="" class="w-7" />
                                     </x-room-pictogram>
 
@@ -99,15 +99,13 @@
                                         <img src="{{asset('assets/icons/pictograms/wifi.svg')}}" alt="" class="w-7" />
                                     </x-room-pictogram>
                                     
-                                    <x-room-pictogram text="Klimatyzacja">
-                                        <img src="{{asset('assets/icons/pictograms/air-conditioner.svg')}}" alt="" class="w-7" />
+                                    <x-room-pictogram text="Czajnik">
+                                        <img src="{{asset('assets/icons/pictograms/kettle.svg')}}" alt="" class="w-7" />
                                     </x-room-pictogram>
                                 </div>
 
                                 <div class="grid grid-cols-1 md:grid-cols-3 w-full gap-6 border-b py-6">
-                                    <x-room-pictogram text="Czajnik">
-                                        <img src="{{asset('assets/icons/pictograms/kettle.svg')}}" alt="" class="w-7" />
-                                    </x-room-pictogram>
+                                   
                                     <x-room-pictogram text="Ręczniki">
                                         <img src="{{asset('assets/icons/pictograms/towels.svg')}}" alt="" class="w-7" />
                                     </x-room-pictogram>
@@ -184,15 +182,16 @@
                             <hr class="w-[90%] border-primary-600">
 
                             <div class="flex flex-col justify-start items-start gap-6">
-                                <x-room-info-item text="Liczba osób: maks. 4 os.">
+                                <x-room-info-item text="Liczba osób: maks. 6 os.">
                                     <x-lucide-user class="w-6" />
                                 </x-room-info-item>
-                                <x-room-info-item text="Powierzchnia: 35 m²">
+                                <x-room-info-item text="Powierzchnia: 65 m²">
                                     <x-lucide-scaling class="w-6" />
                                 </x-room-info-item>
-                                <x-room-info-item text="1 łóżko podwójne + <br> 1 rozdkładana sofa">
+                                <x-room-info-item text="łóżko podwójne + <br> 2x rozdkładana sofa">
                                     <x-lucide-bed-single class="w-6"/>
                                 </x-room-info-item>
+                                
                               
                             </div>
 

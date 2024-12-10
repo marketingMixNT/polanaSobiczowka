@@ -1,11 +1,11 @@
-<x-layouts.app title="Polityka Prywatności – Apartamenty Polana Sobiczkowa" 
-    description="Poznaj zasady ochrony danych osobowych w Apartamentach Polana Sobiczkowa. Dowiedz się, jak dbamy o Twoją prywatność podczas korzystania z naszej strony.">
+<x-layouts.app title="Polityka Prywatności – Apartament Polana Sobiczkowa" 
+    description="Poznaj zasady ochrony danych osobowych w Apartamencie Polana Sobiczkowa. Dowiedz się, jak dbamy o Twoją prywatność podczas korzystania z naszej strony.">
 
     <x-layouts.app-wrapper>
 
         {{-- hero --}}
-        <x-hero image="{{asset('assets/images/mobile/polana-sobiczkowa-27.webp')}}"
-            imageMobile="{{asset('assets/images/desktop/polana-sobiczkowa-27.webp')}}" title="Polityka Prywatności"
+        <x-hero image="{{asset('assets/img/mobile/polana-sobiczkowa-10.webp')}}"
+            imageMobile="{{asset('assets/img/desktop/polana-sobiczkowa-10.webp')}}" title="Polityka Prywatności"
             subtitle="Poznaj nasze zasady ochrony danych osobowych" />
 
         <x-section>

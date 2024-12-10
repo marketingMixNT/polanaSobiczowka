@@ -14,10 +14,10 @@
 
         </div>
 
-        <div class="flex flex-col justify-center items-center">
+        {{-- <div class="flex flex-col justify-center items-center">
             <x-rating source="google" rate="5/5" href="#" />
             <x-rating source="booking" rate="9.4/10" href="#" />
-        </div>
+        </div> --}}
         {{-- testimonials --}}
         <div class="swiper testimonials-carousel max-w-screen-md">
             <div class="swiper-wrapper ">

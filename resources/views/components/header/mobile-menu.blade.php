@@ -14,16 +14,17 @@
         <nav>
             <ul class="flex flex-col justify-start items-start gap-5 pl-6">
                 <x-header.nav-item href="{{route('about')}}" activeRoute="about">O nas</x-header.nav-item>
+                <x-header.nav-item href="{{route('apartment')}}" activeRoute="apartment">Apartament</x-header.nav-item>
 
                 
-                <x-header.dropdown-mobile title="Apartamenty">
+                {{-- <x-header.dropdown-mobile title="Apartamenty">
                    
                     <x-header.dropdown-mobile-item href="{{route('room.first')}}" activeRoute="room.first">Apartament z 1 sypialnią</x-header.dropdown-mobile-item>
                     <x-header.dropdown-mobile-item href="{{route('room.second')}}" activeRoute="room.second">Apartament z widokiem na góry</x-header.dropdown-mobile-item>
                   
                   
                 
-                </x-header.dropdown-mobile>
+                </x-header.dropdown-mobile> --}}
 
                 <x-header.nav-item href="{{route('location')}}" activeRoute='location'>Lokalizacja</x-header.nav-item>
                 <x-header.nav-item href="{{route('gallery')}}" activeRoute='gallery'>Galeria</x-header.nav-item>

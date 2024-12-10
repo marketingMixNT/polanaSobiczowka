@@ -8,68 +8,62 @@
                 <div class="swiper about-image-carousel h-full ">
                     <div class="swiper-wrapper ">
 
+                        {{-- item --}}
                         <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-24.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-9.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
                                 class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-24.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-9.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block  w-full h-full object-cover">
+                        </div>
+                        {{-- item --}}
+                        <div class=" h-full w-full swiper-slide">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-12.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-12.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block  w-full h-full object-cover">
+                        </div>
+                        {{-- item --}}
+                        <div class=" h-full w-full swiper-slide">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-15.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-15.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block  w-full h-full object-cover">
+                        </div>
+                        {{-- item --}}
+                        <div class=" h-full w-full swiper-slide">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-17.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-17.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block  w-full h-full object-cover">
+                        </div>
+                        {{-- item --}}
+                        <div class=" h-full w-full swiper-slide">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-23.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-23.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="hidden sm:block  w-full h-full object-cover">
+                        </div>
+                        {{-- item --}}
+                        <div class=" h-full w-full swiper-slide">
+                            <img src="{{asset('assets/img/mobile/polana-sobiczkowa-25.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
+                                class="sm:hidden w-full h-full object-cover">
+                            <img src="{{asset('assets/img/desktop/polana-sobiczkowa-25.webp')}}"
+                                alt="wnętrze Apartamentu Polana Sobiczkowa w Kościelisku"
                                 class="hidden sm:block  w-full h-full object-cover">
                         </div>
 
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-38.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-38.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
 
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-42.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-42.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
-
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-30.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-30.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
-
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-29.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-29.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
-
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-23.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-23.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
-
-                        <div class=" h-full w-full swiper-slide">
-                            <img src="{{asset('assets/images/mobile/polana-sobiczkowa-35.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="sm:hidden w-full h-full object-cover">
-                            <img src="{{asset('assets/images/desktop/polana-sobiczkowa-35.webp')}}"
-                                alt="wnętrze apartamentu w Apartamenty Polana Sobiczkowa w Kościelisku"
-                                class="hidden sm:block w-full h-full object-cover">
-                        </div>
 
                     </div>
                 </div>
@@ -100,10 +94,10 @@
 
                 <x-text-block>
                     <strong>Polana Sobiczkowa</strong> to miejsce, w którym tradycyjny styl góralski spotyka się z
-                    nowoczesnym komfortem. Każdy apartament został zaprojektowany z dbałością o szczegóły, zapewniając
+                    nowoczesnym komfortem. Nasz apartament został zaprojektowany z dbałością o szczegóły, zapewniając
                     wygodę i estetykę.
                     <br><br>
-                    Wnętrza są przestronne i przytulne, idealne dla rodzin oraz grup przyjaciół. Naturalne materiały,
+                    Wnętrze jest przestronne i przytulne, idealne dla rodzin oraz grup przyjaciół. Naturalne materiały,
                     takie jak drewno, tworzą wyjątkowy klimat sprzyjający relaksowi.
                     <br><br>
                     Oferujemy również wszelkie udogodnienia, takie jak aneksy kuchenne, szybkie WiFi i bezpłatny

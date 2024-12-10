@@ -1,1 +1,48 @@
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.310506867677!2d19.917936977369276!3d49.28946087139383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715ed5bfc27aa41%3A0x6d69b564e983888e!2sApartamenty%20Polana%20Sobiczkowa!5e0!3m2!1spl!2spl!4v1733217107324!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full pt-16" ></iframe>
+
+
+<div id="map" style="width: 100%; height: 480px;">
+
+</div>
+
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?sensor=true&key=AIzaSyBel5yeh6EpmEI-QaZ53VGxf0x5rR-d-to"></script>
+
+<script type="text/javascript">
+    var map;
+        var lat=49.289247;
+        var lng=19.920882;
+        var zoom=14;
+	
+     
+        function initialize() {
+            var myOptions = {
+                zoom: zoom,
+                center: new google.maps.LatLng(lat, lng),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+panControl: true,
+ zoomControl: true,
+ mapTypeControl: true,
+scaleControl: true,
+streetViewControl: false,
+scrollwheel: false,
+    navigationControl: false,
+    mapTypeControl: false,
+    scaleControl: false,
+    draggable: false,
+
+            };
+            map = new google.maps.Map(document.getElementById('map'), myOptions);
+			
+			 // stworzenie markera
+                var punkt  = new google.maps.LatLng(49.289247,19.920882);
+				 backgroundColor: 'none';
+                var opcjeMarkera =
+                {
+                    position: punkt,
+                    map: map,
+                    title: "Apartamenty Polana Sobiczkowa"
+                }
+                var marker = new google.maps.Marker(opcjeMarkera);
+        }
+        window.onload=initialize;
+</script>

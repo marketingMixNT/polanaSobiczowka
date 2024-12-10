@@ -54,9 +54,7 @@
                             <img src="{{asset('assets/icons/bathroom.svg')}}" alt="" class="w-20" laoding="lazy" />
                         </x-pictogram-card>
 
-                        <x-pictogram-card title="Klimatyzacja" text="Odpoczywaj w idealnej temperaturze, niezależnie od pogody za oknem.">
-                            <img src="{{asset('assets/icons/air-conditioning.svg')}}" alt="" class="w-20" laoding="lazy" />
-                        </x-pictogram-card>
+                
                         
                     </div>
                 </div>

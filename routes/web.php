@@ -19,9 +19,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('/', HomeController::class)->name('home');
     Route::get('/o-nas', AboutController::class)->name('about');
-    Route::get('/apartamenty', [RoomController::class,'index'])->name('room.index');
-    Route::get('/apartament-z-1-sypialnia', [RoomController::class,'roomFirst'])->name('room.first');
-    Route::get('/apartament-z-widokiem-na-gory', [RoomController::class,'roomSecond'])->name('room.second');
+    // Route::get('/apartamenty', [RoomController::class,'index'])->name('room.index');
+    // Route::get('/apartament-z-1-sypialnia', [RoomController::class,'roomFirst'])->name('room.first');
+    Route::get('/apartament-z-widokiem-na-gory', [RoomController::class,'apartment'])->name('apartment');
     Route::get('/lokalizacja', LocationController::class)->name('location');
     Route::get('/galeria', GalleryController::class)->name('gallery');
     Route::get('/kontakt', ContactController::class)->name('contact');

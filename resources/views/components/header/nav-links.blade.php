@@ -2,10 +2,11 @@
     <ul class="flex justify-center items-center gap-10">
 
         <x-header.nav-item href="{{route('about')}}" activeRoute="about">O nas</x-header.nav-item>
+        <x-header.nav-item href="{{route('apartment')}}" activeRoute="apartment">Apartament</x-header.nav-item>
       
 
 
-        <x-header.nav-item-dropdown href="{{route('room.index')}}" activeRoute="room.index" title="Apartamenty">
+        {{-- <x-header.nav-item-dropdown href="{{route('room.index')}}" activeRoute="room.index" title="Apartamenty">
             <x-header.dropdown>
                
                 <x-header.dropdown-item href="{{route('room.first')}}" activeRoute="room.first">Apartament z 1 sypialnią</x-header.dropdown-item>
@@ -13,7 +14,7 @@
             
 
             </x-header.dropdown>
-        </x-header.nav-item-dropdown>
+        </x-header.nav-item-dropdown> --}}
 
 
 

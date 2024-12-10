@@ -26,6 +26,7 @@
                     <div class=" flex flex-col gap-2">
 
                         <a href="tel:+48604280425" class="font-thin font-heading link-hover text-sm ">+48 604 280 425</a>
+                        <a href="tel:+48604101207" class="font-thin font-heading link-hover text-sm ">+48 604 101 207 </a>
 
                        
                     </div>
